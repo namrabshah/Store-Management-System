@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name></display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+    <welcome-file>Registration.jsp</welcome-file>
+    <welcome-file>Home.jsp</welcome-file>
+    <welcome-file>Error.jsp</welcome-file>
+    <welcome-file>forgetpnum.jsp</welcome-file>
+    <welcome-file>Additems.jsp</welcome-file>
+    <welcome-file>Success.jsp</welcome-file>
+    <welcome-file>Searchitems.jsp</welcome-file>
+    <welcome-file>delete.jsp</welcome-file>
+    <welcome-file>update.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Update</display-name>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>gls.com.Update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+</web-app>
